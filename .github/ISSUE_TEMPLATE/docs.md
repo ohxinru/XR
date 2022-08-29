@@ -11,13 +11,18 @@ assignees: ''
 
 ### introduction
 <!-- Describe what this document describes -->
+
+<br/>
       
 ### value
 <!-- Describe what problem this document solves-->
 
+<br/>
+
 ### supplementary
 <!-- Link? reference? task list? -->
 
+<br/>
 
 ## Checklist
 
