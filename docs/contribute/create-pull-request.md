@@ -6,6 +6,6 @@ We're excited that you're considering making a contribution to the Grafana proje
 
 We know you're excited to create your first pull request. Before we get started, read these resources first:
 
-- Learn how to start [Contributing to Grafana](/CONTRIBUTING.md).
+- Learn how to start [Contributing to XR](/CONTRIBUTING.md).
 - Make sure your code follows the relevant [style guides](/contribute/style-guides).
 T
