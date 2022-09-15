@@ -1,21 +1,27 @@
-# Contributing to （项目名）
+# # Welcome to XR contributing guide
 
-Thank you for your interest in contributing to （项目名）! We welcome all people who want to contribute in a healthy and constructive manner within our community. To help us create a safe and positive community experience for all, we require all participants to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).
+Thank you for your interest in contributing to our prioject! We welcome all people who want to contribute in a healthy and constructive manner within our community. To help us create a safe and positive community experience for all, we require all participants to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-This document is a guide to help you through the process of contributing to （项目名）.
+This document is a guide to help you through the process of contributing to XR.
+
+
 
 ## Become a contributor
 
-You can contribute to （项目名） in several ways. Here are some examples:
+You can contribute to XR in several ways. Here are some examples:
 
-- Contribute to the （项目名） codebase.
+- Contribute to the XR codebase.
 - Report and triage bugs.
 - Develop community plugins and dashboards.
 - Write technical documentation and blog posts, for users and contributors.
 - Organize meetups and user groups in your local area.
-- Help others by answering questions about （项目名）.
+- Help others by answering questions about XR.
 
 For more ways to contribute, check out the [Open Source Guides](https://opensource.guide/how-to-contribute/).
+
+### Create a new issue
+
+
 
 ### Report bugs
 
@@ -39,6 +45,9 @@ For authentication and alerting Grafana server logs are useful.
 #### Security issues
 
 If you believe you've found a security vulnerability, please read our [security policy](https://github.com/grafana/grafana/security/policy) for more details.
+
+### Working in a codespace
+
 
 ### Suggest enhancements
 
