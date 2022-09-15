@@ -11,18 +11,18 @@ assignees: ''
 
 ### introduction
 <!-- Describe what this document describes -->
+
+
+<br/>
+
       
 ### value
 <!-- Describe what problem this document solves-->
 
+
+<br/>
+
 ### supplementary
 <!-- Link? reference? task list? -->
 
-
-## Checklist
-
-- [ ] assignees选择了么？ 
-- [ ] labels选择完全了么？
-- [ ] projects选择了么？
-- [ ] projects信息补全了么？（版本号、版本日、iteration）
-- [ ] development选择了么？
+<br/>
