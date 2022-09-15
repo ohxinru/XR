@@ -9,28 +9,11 @@
 
 <br/>
 
-0828改动一下下
+## Contributing
 
+If you're interested in contributing to the XR project:
 
-111与222的改动
-
-改333（第一次commit）
-
-改333（提交pr后再次comit）
-
-
-改333（第三次commit加issue）
-
-改333（第四次commit加issue，与标题讲解空格再#issue标号）
-
-
-改333（第五次commit不加issue）
-
-分支feat-111
-
-issue：7，分支：有点烦
-
-issue22，分支feat分支标题来的（主要尝试commit关联来多个issue标题）
-
-
-演示动一下
+- Start by reading the [Contributing guide](https://github.com/ohxinru/XR/blob/develop/CONTRIBUTING.md).
+- Learn how to set up your local environment, in our [Developer guide](https://github.com/grafana/grafana/blob/HEAD/contribute/developer-guide.md).
+- Explore our [beginner-friendly issues](https://github.com/grafana/grafana/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22).
+- Look through our [style guide and Storybook](https://developers.grafana.com/ui/latest/index.html).
