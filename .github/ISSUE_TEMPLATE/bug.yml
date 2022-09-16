@@ -8,7 +8,7 @@ body:
       value: |
         Thank you for taking the time to report this bug!
 
-        _*The more information you share, the faster we can identify and fix the bug.*_
+        _The more information you share, the faster we can identify and fix the bug._
 
         Prior to opening the issue, please make sure that you:
 
