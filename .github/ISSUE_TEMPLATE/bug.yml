@@ -14,6 +14,7 @@ body:
 
         - Use English to communicate.
         - Search the [open issues](https://github.com/ohxinru/XR/issues) to avoid duplicating the issue.
+  
   - type: textarea
     id: current-behavior
     attributes:
