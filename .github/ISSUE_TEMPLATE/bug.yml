@@ -1,7 +1,7 @@
 name: "Bug Report for"
 description: Report a bug to help improve the project.
 title: "bug: "
-labels: bug
+labels: type/bug
 body:
   - type: markdown
     attributes:
@@ -13,7 +13,7 @@ body:
         Prior to opening the issue, please make sure that you:
 
         - Use English to communicate.
-        - Search the [open issues](https://github.com/apache/apisix/issues) and [discussion forum](https://github.com/apache/apisix/discussions) to avoid duplicating the issue.
+        - Search the [open issues](https://github.com/ohxinru/XR/issues) to avoid duplicating the issue.
 
   - type: textarea
     id: current-behavior
@@ -37,7 +37,14 @@ body:
     id: error
     attributes:
       label: Error Logs
-      description: Paste the error logs if any. You can change the [log level](https://github.com/apache/apisix/blob/617c325628f33961be67f61f0fa8002afc370e42/docs/en/latest/FAQ.md#how-to-change-the-log-level) to get a verbose error log.
+      description: Paste the error logs if any. 
+    validations:
+      required: false
+  - type: textarea
+    id: Screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
     validations:
       required: false
   - type: textarea
@@ -46,10 +53,10 @@ body:
       label: Steps to Reproduce
       description: Share the steps you took so that we can reproduce the issue. Reports without proper steps details will likely be closed.
       placeholder: |
-        1. Run APISIX via the Docker image.
-        2. Create a Route with the Admin API.
-        3. Try configuring ...
-        4. ...
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
     validations:
       required: true
   - type: textarea
@@ -58,12 +65,10 @@ body:
       label: Environment
       description: Share your environment details. Reports without proper environment details will likely be closed.
       value: |
-        - APISIX version (run `apisix version`):
-        - Operating system (run `uname -a`):
-        - OpenResty / Nginx version (run `openresty -V` or `nginx -V`):
-        - etcd version, if relevant (run `curl http://127.0.0.1:9090/v1/server_info`):
-        - APISIX Dashboard version, if relevant:
-        - Plugin runner version, for issues related to plugin runners:
-        - LuaRocks version, for installation issues (run `luarocks --version`):
+        - Device [e.g. mac, iphone6]:
+        - OS: [e.g. iOS,iOS8.1]:
+        - Browser [e.g. chrome, safari]:
+        - Enviroment [e.g. integration, staging, production]:
+        - Version ( e.g. v0.13.7)::
     validations:
       required: true
