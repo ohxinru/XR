@@ -14,14 +14,16 @@ body:
         - 确保按documentation模版补充完整相关信息。
 
   - type: textarea
-    attributes:
+    attributes: 
       label: 描述
+      id: description
       description: 清晰简洁地描述文档包含什么内容，解决什么问题。
     validations:
       required: true
   - type: checkboxes
     attributes:
       label: 自助服务
+      id: Self-service
       description: |
         如果你觉得你可以为这个文档做出贡献，请选中下面的框。这会告诉大家你正在为此文档工作。
       options:
