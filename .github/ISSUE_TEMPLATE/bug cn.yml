@@ -40,9 +40,9 @@ body:
     id: expected-behavior
     attributes:
       label: 期望结果
-      description: 你期望会发生什么？描述你预期会发生什么。
+      description: 你期望会发生什么？
       placeholder: |
-        写下你认为会发生的事情。
+        写下你预期应该会发生的事情。
     validations:
       required: true
 
@@ -52,7 +52,7 @@ body:
       label: 实际结果
       description: 实际结果是怎样的？描述您面临的问题。
       placeholder: |
-        写下发生了什么。添加完整的控制台日志消息和屏幕截图（如果适用）。
+        写下你面临的问题现状。添加完整的控制台日志消息和屏幕截图（如果适用）。
     validations:
       required: true
 
@@ -60,7 +60,7 @@ body:
     id: enviroment
     attributes:
       label: 你的环境
-      description: Include as many relevant details about the environment you experienced the bug in. Reports without proper environment details will likely be closed.
+      description: 写下尽可能多的你遇到bug的相关环境信息。没有正确且详细的环境信息,此bug可能会被关闭。
       value: |
         - 页面网址:
         - 设备信息<!-- e.g. 手机, iPad -->:
