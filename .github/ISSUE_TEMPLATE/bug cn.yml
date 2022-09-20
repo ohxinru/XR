@@ -17,6 +17,7 @@ body:
         - 确保按bug模版补充完整相关信息。
 
   - type: textarea
+    id: description
     attributes:
       label: 描述
       description: 清晰简洁地描述bug是什么。
@@ -24,6 +25,7 @@ body:
       required: true
 
   - type: textarea
+    id: steps
     attributes:
       label: 复现步骤
       description: 分享你采取的步骤,以便我们重现此问题。没有正确且详细的步骤,此bug可能会被关闭。
@@ -35,6 +37,7 @@ body:
       required: true
 
   - type: textarea
+    id: expected-behavior
     attributes:
       label: 期望结果
       description: 你期望会发生什么？描述你预期会发生什么。
@@ -44,6 +47,7 @@ body:
       required: true
 
   - type: textarea
+    id: current-behavior
     attributes:
       label: 实际结果
       description: 实际结果是怎样的？描述您面临的问题。
@@ -53,6 +57,7 @@ body:
       required: true
 
   - type: textarea
+    id: enviroment
     attributes:
       label: 你的环境
       description: Include as many relevant details about the environment you experienced the bug in. Reports without proper environment details will likely be closed.
