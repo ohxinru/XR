@@ -23,3 +23,14 @@ body:
         作为用户，我想……，这样……
     validations:
       required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: 任务清单
+      description: 罗列出完成此需求所需要处理的所有任务。
+      placeholder: |
+        1. task 1:
+        2. task 2:
+        3. task 3:        
+    validations:
+      required: false
