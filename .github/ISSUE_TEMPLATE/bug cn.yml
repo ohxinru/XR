@@ -1,0 +1,69 @@
+name: " 🐛 Bug Report"
+description: 报告bug以帮助改进项目。
+title: "bug: "
+labels: type/bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你花费时间报告此bug!
+
+        **你提供的信息越多,我们就能越快的识别和修复bug。**
+
+        在打开issue之前,请确保你:
+
+        - 会不会是自己操作有误?
+        - 搜索 [open issues](https://github.com/vikadata/vikadata/issues) 以避免重复。
+        - 确保按bug模版补充完整相关信息。
+
+  - type: textarea
+    attributes:
+      label: 描述
+      description: 清晰简洁地描述bug是什么。
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 复现步骤
+      description: 分享你采取的步骤,以便我们重现此问题。没有正确且详细的步骤,此bug可能会被关闭。
+      placeholder: |
+        1. 步骤 1...
+        2. 步骤 2...
+        3. 步骤 3...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 期望结果
+      description: 你期望会发生什么？描述你预期会发生什么。
+      placeholder: |
+        写下你认为会发生的事情。
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 实际结果
+      description: 实际结果是怎样的？描述您面临的问题。
+      placeholder: |
+        写下发生了什么。添加完整的控制台日志消息和屏幕截图（如果适用）。
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 你的环境
+      description: Include as many relevant details about the environment you experienced the bug in. Reports without proper environment details will likely be closed.
+      value: |
+        - 页面网址:
+        - 设备信息<!-- e.g. 手机, iPad -->:
+        - 浏览器信息 <!-- e.g. chrome, safari -->:
+        - 发生环境 <!-- e.g. integration, staging, production -->:
+        - Vikadata版本<!-- e.g. v0.13.7 -->:
+        - 寄主信息 <!-- e.g. 企微自建应用, 企微第三方集成 -->:
+        - 其他<!-- 任何你认为有价值的信息 -->:
+    validations:
+      required: true
+  
