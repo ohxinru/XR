@@ -28,7 +28,7 @@ body:
     id: steps
     attributes:
       label: 复现步骤
-      description: 分享你采取的步骤,以便我们重现此问题。没有正确且详细的步骤,此bug可能会被关闭。
+      description: 写下你采取的步骤,以便我们重现此问题。没有正确且详细的步骤,此bug可能会被关闭。
       placeholder: |
         1. 步骤 1...
         2. 步骤 2...
@@ -50,7 +50,7 @@ body:
     id: current-behavior
     attributes:
       label: 实际结果
-      description: 实际结果是怎样的？描述您面临的问题。
+      description: 实际结果是怎样的？
       placeholder: |
         写下你面临的问题现状。添加完整的控制台日志消息和屏幕截图（如果适用）。
     validations:
