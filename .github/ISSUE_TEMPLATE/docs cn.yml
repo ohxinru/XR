@@ -24,7 +24,6 @@ body:
     attributes:
       label: 自助服务
       id: Self-service
-      description: |
-        如果你觉得你可以为这个文档做出贡献，请选中下面的框。这会告诉大家你正在为此文档工作。
+      description: 如果你觉得你可以为这个文档做出贡献，请选中下面的框。这会告诉大家你正在为此文档工作。  
       options:
         - label:  我愿意自己解决此文档需求。
