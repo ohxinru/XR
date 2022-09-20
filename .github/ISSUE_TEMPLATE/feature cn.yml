@@ -1,0 +1,25 @@
+name: "🚀 Feature Request"
+description: 提交带有具体建议的详细功能需求.
+title: "feat: As a user, I want to ..., so that ..."
+labels: type/feature
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **你提供的信息越多，我们就能越快的帮助你实现需求。**
+
+        在打开issue之前,请确保你:
+
+        - 搜索 [open issues](https://github.com/vikadata/vikadata/issues) 以避免重复。
+        - 确保按feature模版补充完整相关信息。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 描述
+      description: 描述你希望看到的功能。
+      placeholder: |
+        作为用户，我想……，这样……
+    validations:
+      required: true
