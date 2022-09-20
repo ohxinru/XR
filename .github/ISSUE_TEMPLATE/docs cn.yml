@@ -22,10 +22,3 @@ body:
         此文档主要包含什么内容，解决什么问题
     validations:
       required: true
-  - type: checkboxes
-    id: Self-service
-    attributes:
-      label: 自助服务
-      description: 如果你觉得你可以为这个文档做出贡献，请选中下面的框。这会告诉大家你正在为此文档工作。  
-      options:
-        - label:  我愿意自己解决此文档需求。
